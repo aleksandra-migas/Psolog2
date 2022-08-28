@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    
+    /*font-family: 'Montserrat', sans-serif;*/
+  }
+  html, body{
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6rem;
+    scroll-behavior: smooth;
+    color: rgba(65, 53, 44);
+    overflow-x: hidden;
+  }
+  @media screen and (min-width: 320px) {
+    .header{
+      position: relative;
+      overflow-x: hidden;
+    }
+    .logolink{
+      text-decoration: none;
+    }
+    .logo-box{
+      display: flex;
+      align-items: center;
+    }
+    .logo-blue{
+      display: none;
+    }
+    .logo-box img{
+     height: 6vh;
+    }
+   .logo-text-box{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     margin-left: .5rem;
+     line-height: 1rem;
+     color:#fff;
+   }
+   .logo-title{
+     font-weight: 300;
+     font-family: 'Libre Baskerville', serif;
+     font-size: 1.6rem;
+     color:#fff;
+   }
+   .logo-subtitle{
+     font-size: .85rem;
+     color:#fff;
+   }
+    nav {
+      min-height: 8vh;
+      display: flex;
+      align-items: center;
+      padding: 1rem;
+      position: fixed;
+      left:0;
+      right: 0;
+      top: 0;
+      z-index: 9999;
+     
+    }
+    .navScroll{
+      /*background-color: #fff;*/
+      transition: all .8s;
+      /*background-color: rgb(153, 215, 226);*/
+      background-color: rgba(141, 180, 206);
+    }
+.navScroll .nav-links{
+  color: #fff;
+}
+    .navScroll .social i{
+      color:#fff;
+    }
+    .navScroll .burger div{
+background-color: #fff;
+    }
+      .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+        right: 0px;
+        height: 100vh;
+        top:0vh;
+        background-color:rgb(141, 180, 206);
+        width: 100%;
+        z-index: 9999;
+        transform: translateX(100%);
+      }
+      
+        .nav-links li {
+          list-style: none;
+          opacity: 0;
+          /*display: none;*/
+        }
+        .nav-links li a {
+          text-decoration: none;
+          z-index: 9999;
+          font-weight: 500;
+          font-size: 1.2rem;
+          color:#fff;
+          font-family: 'Montserrat', sans-serif;
+          padding-left: 1.2rem;
+        }
+        .social{
+          position: absolute;
+          right: 3.5rem;
+        }
+        .social i{
+        font-size: 1.5rem;
+        color:rgb(153, 215, 226);
+        padding: .2rem;
+        }
+      .burger{
+        position:absolute;
+        right: .5rem;
+        z-index: 99999;
+      }
+      .burger div{
+        width: 25px;
+        height: 2px;
+        background-color: rgb(153, 215, 226);
+        margin: 5px;
+        transition: all 0.3s ease;
+        align-items: flex-end;
+      }   
+    .nav-active{
+      transform: translateX(0%);
+      transition: transform 0.5s ease-in;
+    }
+    @keyframes navLinkSlide{
+        from{
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0px)
+        }
+    }
+    .toggle .bar1{
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+    .toggle .bar2{
+        opacity: 0;
+    }
+    .toggle .bar3{
+        transform: rotate(45deg) translate(-5px,-6px);
+    }
+    .header {
+        min-height: 70vh;
+        width: 100%;
+          background-image: linear-gradient(
+            rgba(81, 72, 76, 0.3),
+            rgba(81, 72, 76, 0.3)
+          ),linear-gradient(
+            rgba(81, 72, 76, 0.3),
+            rgba(81, 72, 76, 0.3)
+          ),
+          url(img/spacer7.jpg);
+       background-position:bottom;
+        background-size: cover;
+        position: relative;
+        background-attachment: fixed;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 3rem;
+        margin-bottom: 3rem;
+      }
+      .header-box{
+        margin-top: 50%;
+      }
+      .header-box h1{
+        font-weight: 400;
+        font-size: 3rem;
+        color: #fff;
+        text-transform: uppercase;
+      }
+      .section1{
+        padding:0 1rem;
+      }
+      .card-wrap{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 300px);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        grid-gap: 2rem;
+        margin: 3rem 0;
+        width: 100%;
+      }
+      .card{
+        border: rgba(185, 153, 100) thin solid;
+        border-radius: 20px;
+        padding: .5rem;
+      }
+
+      .img1{
+        background-image: url(img/spacer9.jpg);
+        background-size: cover;
+        height: 250px;
+        background-position: 50% 50%;
+        border-radius: 15px;
+      }
+
+      .img2{
+        background-image: url(img/hotel.jpg);
+        background-size: cover;
+        height: 250px;
+        background-position: 50% 50%;
+        border-radius: 15px;
+      }
+      .title{
+        text-transform: uppercase;
+        padding: .5rem;
+        font-weight: 600;
+      }
+      .price{
+        font-size: 1.6rem;
+        color: rgb(94, 107, 131);
+      }
+
+      /*------------------------------------------------footer---------------------------------*/
+    .footer{
+        width: 100%;
+        background-color: rgba(45, 54, 57);
+        color: #fff;
+        display: flex;
+        justify-content:center;
+        justify-items: center;
+        text-align: center;
+        flex-direction: column;
+       }
+       .social-footer i{
+        color: #fff;
+        margin: 1rem;
+       }
+       .copyright{
+        font-size: .85rem;
+        margin-bottom: 1rem;
+       }
+       .copyright p{
+        color:#fff;
+       }
+    }
+
+    @media screen and (min-width: 700px){
+          .header-box{
+              margin-top: 20%;
+            }
+            .section1{
+              padding:0 3rem;
+            }
+            .card-wrap{
+                width: 80%;
+                margin: 3rem 10%;
+            }
+        }
+
+        @media screen and (min-width: 1020px){
+            nav {
+              min-height: 12vh;
+              padding: 1rem;
+            }
+            .burger{
+              display: none;
+            }
+            .nav-links {
+              all: unset;
+            }
+            .nav-links{
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              width: 70%;
+              margin: auto;
+            }
+            .nav-links li{
+             opacity: 1;
+            } 
+            
+            .nav-links li a{
+              font-size: .85rem;
+              color:#fff;
+              
+            }
+            .nav-links li a:hover{
+              font-size: 1.2rem;
+            }
+            .logo-text-box{
+            line-height: 1rem;
+            }
+            .logo-title{
+              font-size: 1.6rem;
+            }
+            .logo-subtitle{
+              font-size: .85rem;
+            }
+            .social{
+              right: 1rem;
+            }
+            .social i{
+              font-size: 1.5rem;
+            }
+            .navScroll .nav-links li a{
+              color: rgba(47, 55, 77);
+              }
+              .navScroll .nav-links a{
+                color: rgb(94, 107, 131);
+              }
+              .nav-links li{
+                cursor: pointer;
+              }
+              .nav-links li a:hover{
+                color: rgba(153, 215, 226);
+              }
+              .navScroll .nav-links li a{
+                color: #fff;
+              }
+              .navScroll .nav-links li a:hover{
+                color: #fff;
+              }
+              
+            }
+            @media screen and (min-width: 1300px){
+                .card-wrap{
+                  width: 60%;
+                  margin: 3rem 20%;
+                 }
+                }
