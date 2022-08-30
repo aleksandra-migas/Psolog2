@@ -151,7 +151,7 @@ background-color: #fff;
         transform: rotate(45deg) translate(-5px,-6px);
     }
     .header {
-        min-height: 70vh;
+        min-height: 80vh;
         width: 100%;
           background-image: linear-gradient(
             rgba(81, 72, 76, 0.3),
@@ -172,7 +172,7 @@ background-color: #fff;
         
       }
       .header-box{
-        margin-top: 50%;
+        margin-top: 70%;
       }
       .header-box h1{
         font-weight: 400;

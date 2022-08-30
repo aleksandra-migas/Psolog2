@@ -191,7 +191,7 @@ background-color: #fff;
           .header-btn{
             position: absolute;
             width: 100%;
-            bottom: 2%;
+            bottom: 6%;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -633,6 +633,11 @@ background-color: #fff;
             }
             .header-btn{
               bottom: 6%;
+            }
+            .icons-wrapper{
+              width: 80%;
+              margin-left: 10%;
+              margin-right: 10%;
             }
             .section-all{
               height: 500px;

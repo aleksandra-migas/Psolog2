@@ -154,11 +154,11 @@ background-color: #fff;
         min-height: 70vh;
         width: 100%;
           background-image: linear-gradient(
-            rgba(81, 72, 76, 0.4),
-            rgba(81, 72, 76, 0.4)
+            rgba(81, 72, 76, 0.2),
+            rgba(81, 72, 76, 0.2)
           ),linear-gradient(
-            rgba(81, 72, 76, 0.4),
-            rgba(81, 72, 76, 0.4)
+            rgba(81, 72, 76, 0.2),
+            rgba(81, 72, 76, 0.2)
           ),
           url(img/scotland.jpg);
        background-position:50% 80%;
@@ -182,30 +182,20 @@ background-color: #fff;
       }
 
       .gallery{
-        padding:10px;
+       padding: 10px;
         max-width: 1000px;
         margin: 0 auto;
         background: #fcfcfa;
         display: grid;
-        grid-gap: 10px;
-        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-        grid-auto-rows: 250px;
-        grid-auto-flow: dense;
+        grid-gap: 5px;
+        grid-template-columns: repeat(auto-fit,minmax(90px,100px));
+        grid-auto-rows: 90px;
+        justify-content: center;
       }
       .gallery div img{
         width: 100%;
         height: 100%;
         object-fit: cover;
-      }
-      .vstretch{
-        grid-row: span 1;
-      }
-      .hstretch{
-        grid-column: span 1;
-      }
-      .bstretch{
-        grid-column: span 1;
-        grid-row: span 1;
       }
       
       #lightbox {
@@ -224,7 +214,7 @@ background-color: #fff;
       }
       #lightbox img {
         width: 95%;
-        height: 350px;
+        height: 320px;
         object-fit: cover;
       }
      /*.yt-section{
@@ -322,6 +312,22 @@ background-color: #fff;
     @media screen and (min-width: 700px){
         .header-box{
             margin-top: 20%;
+          }
+          .gallery{
+            padding:10px;
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #fcfcfa;
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+            grid-auto-rows: 250px;
+            grid-auto-flow: dense;
+          }
+          .gallery div img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
           }
           .vstretch{
             grid-row: span 2;
