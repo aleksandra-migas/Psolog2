@@ -151,17 +151,17 @@ background-color: #fff;
         transform: rotate(45deg) translate(-5px,-6px);
     }
     .header {
-        min-height: 80vh;
+        min-height: 70vh;
         width: 100%;
           background-image: linear-gradient(
-            rgba(81, 72, 76, 0.2),
-            rgba(81, 72, 76, 0.2)
+            rgba(81, 72, 76, 0.3),
+            rgba(81, 72, 76, 0.3)
           ),linear-gradient(
-            rgba(81, 72, 76, 0.2),
-            rgba(81, 72, 76, 0.2)
+            rgba(81, 72, 76, 0.3),
+            rgba(81, 72, 76, 0.3)
           ),
-          url(images/21-min.jpg);
-       background-position:50% 60%;
+          url(images/dogshow.jpg);
+       background-position:50% 80%;
         background-size: cover;
         position: relative;
         background-attachment: fixed;
@@ -169,10 +169,10 @@ background-color: #fff;
         align-items: center;
         text-align: center;
         line-height: 3rem;
-        
+        margin-bottom: 3rem;
       }
       .header-box{
-        margin-top: 70%;
+        margin-top: 50%;
       }
       .header-box h1{
         font-weight: 400;
@@ -180,116 +180,6 @@ background-color: #fff;
         color: #fff;
         text-transform: uppercase;
       }
-
-      .section1{
-        width: 100%;
-        padding:2rem 1rem;
-      }
-      .section1 h2{
-        font-size: 2.3rem;
-        font-family: 'Montserrat', sans-serif;
-        margin: 2rem 0;
-      }
-      .section1 .contact{ 
-        margin: auto; 
-        padding-bottom: 2rem;
-        display: flex;
-        flex-direction: column;
-      }
-      .section1 .contact-group{
-        padding: .5rem;
-       justify-content: center;
-       font-size: 1rem;
-      }
-      .contact-group .fa-solid{
-        padding-right: 1rem;
-        font-size: 1.8rem;
-        color: rgb(153, 215, 226);
-      }
-      .map-box {
-        width: 90%;
-        margin: auto;
-        padding-bottom: 2rem;
-      }
-      iframe{
-        width: 100%;
-      }
-      .map-box p{
-        text-align: center;
-       font-size: 1.2rem;
-       text-transform: uppercase;
-      }
-      .section2{
-        /*background-color: rgb(94, 107, 131);*/
-        background-image: linear-gradient(
-          rgba(81, 72, 76, 0.2),
-          rgba(81, 72, 76, 0.2)
-        ),linear-gradient(
-          rgba(81, 72, 76, 0.2),
-          rgba(81, 72, 76, 0.2)
-        ),
-        url(images/iwi5.jpg);
-      background-position: 50% 60%;
-      background-size: cover;
-      position: relative;
-      width: 100%;
-      height: 100vh;
-      } 
-      .section2 h2{
-        font-size: 2rem;
-        font-weight: 300;
-        text-align: center;
-        padding-top: 1rem;
-       }
-       .contact-wrapper{
-        width: max(250px,40%);
-         /*width: max(300px, 90%);*/
-         /*background-color:rgb(94, 107, 131);*/
-         background-color: transparent;
-         margin: auto;
-         text-align: center;
-       }
-       .message-me{
-         font-size: 2rem;
-         text-transform: uppercase;
-         padding-top: 3rem;
-         padding-bottom: 3rem;
-         color: #fff;
-       }
-       .message-me p{
-        color: #fff;
-       }
-       .input-group{
-         padding-bottom: 1rem;
-         position: relative;
-       }
-       .input-group input, textarea{
-         width: 100%;
-         outline: none;
-         border: none;
-         font-size: 1rem;
-         font-weight: 200;
-         padding: 0.5rem;
-       }
-       .send-btn{
-         padding-bottom: 2rem;
-       }
-       .send-btn #sendButton{
-         font-size: 1em;
-         padding: .5rem 1.5rem;
-         background-color: rgb(153, 215, 226);
-         color: rgb(65, 53, 44);
-         border: none;
-         border-radius: 30px;
-         cursor:pointer;
-       }
-       #sendButton:hover{
-       font-size: 1.2rem;
-       }
-       .send-btn .fa-right-long{
-        color: rgb(65, 53, 44);
-       }
-
        /*------------------------------------------------footer---------------------------------*/
     .footer{
         width: 100%;
@@ -313,27 +203,11 @@ background-color: #fff;
         color:#fff;
        }
     }
+      
 
     @media screen and (min-width: 700px){
         .header-box{
             margin-top: 20%;
-          }
-          .section1{
-            display: flex;
-            padding: 5rem ;
-          }
-          .contact-box{
-            width: 50%;
-            
-          }
-          .map-box {
-            width: 50%;
-            justify-content: center;
-            align-items: center;
-           
-          }
-          iframe{
-            width: 90%;
           }
         }
 

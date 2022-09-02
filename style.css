@@ -160,7 +160,7 @@ background-color: #fff;
             rgba(81, 72, 76, 0.3),
             rgba(81, 72, 76, 0.3)
           ),
-          url(img/morze.jpg);
+          url(images/morze.jpg);
        background-position: 45% 50%;
         background-size: cover;
         position: relative;
@@ -320,21 +320,21 @@ background-color: #fff;
             height: 400px;
           }
           .img2{
-            background-image: url(img/iwi.jpg);
+            background-image: url(images/iwi.jpg);
             background-size: cover;
           }
           .img3{
-            background-image: url(img/ring.jpg);
+            background-image: url(images/ring.jpg);
             background-size: cover;
             background-position: 50% 40%;
           }
           .img4{
-            background-image: url(img/iwi3.jpg);
+            background-image: url(images/iwi3.jpg);
             background-size: cover;
             background-position: 50% 30%;
           }
           .img5{
-            background-image: url(img/win.jpg);
+            background-image: url(images/win.jpg);
             background-size: cover;
             background-position: 50% 80%;
           }
@@ -385,7 +385,7 @@ background-color: #fff;
               rgba(81, 72, 76, 0.2),
               rgba(81, 72, 76, 0.2)
             ),
-            url(img/iwi5.jpg);
+            url(images/iwi5.jpg);
           background-position: 50% 60%;
           background-size: cover;
           position: relative;
@@ -487,7 +487,7 @@ background-color: #fff;
                 rgba(81, 72, 76, 0.3),
                 rgba(81, 72, 76, 0.3)
               ),
-              url(img/more.jpg);
+              url(images/more.jpg);
           }
             .header-box{
               font-size: 2rem;

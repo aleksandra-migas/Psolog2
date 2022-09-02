@@ -160,8 +160,8 @@ background-color: #fff;
             rgba(81, 72, 76, 0.2),
             rgba(81, 72, 76, 0.2)
           ),
-          url(img/18-min.jpg);
-       background-position: 40% 80%;
+          url(images/23-min.jpg);
+       background-position: 50% 60%;
         background-size: cover;
         position: relative;
         background-attachment: fixed;
@@ -188,7 +188,7 @@ background-color: #fff;
         padding-bottom: 1rem;
       }
       .img1{
-        background-image: url(img/belgrad.jpg);
+        background-image: url(images/belgrad.jpg);
         background-size: cover;
         width: 100%;
         height: 350px;
@@ -203,7 +203,7 @@ background-color: #fff;
         padding-bottom: 1rem;
       }
       .img2{
-        background-image: url(img/pokaz4.jpg);
+        background-image: url(images/pokaz4.jpg);
         background-size: cover;
         width: 100%;
         height: 350px;
@@ -218,7 +218,7 @@ background-color: #fff;
         padding-bottom: 1rem;
       }
       .img3{
-        background-image: url(img/norway.jpg);
+        background-image: url(images/norway.jpg);
         background-size: cover;
         width: 100%;
         height: 350px;
