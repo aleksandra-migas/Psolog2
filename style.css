@@ -89,6 +89,7 @@ background-color: #fff;
         width: 100%;
         z-index: 9999;
         transform: translateX(100%);
+        
       }
       
         .nav-links li {
