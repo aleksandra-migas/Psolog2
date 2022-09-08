@@ -161,7 +161,7 @@ background-color: #fff;
             rgba(81, 72, 76, 0.3)
           ),
           url(images/ring3.jpg);
-       background-position:bottom;
+       background-position:50% 20%;
         background-size: cover;
         position: relative;
         background-attachment: fixed;
