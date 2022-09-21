@@ -148,7 +148,7 @@ background-color: #fff;
         opacity: 0;
     }
     .toggle .bar3{
-        transform: rotate(-45deg) translate(-7px,-6px);
+        transform: rotate(-45deg) translate(7px,-6px);
     }
     .header {
         min-height: 80vh;
