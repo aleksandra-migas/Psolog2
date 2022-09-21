@@ -120,8 +120,8 @@ background-color: #fff;
         z-index: 99999;
       }
       .burger div{
-        width: 25px;
-        height: 2px;
+        width: 28px;
+        height: 3px;
         background-color: rgb(153, 215, 226);
         margin: 5px;
         transition: all 0.3s ease;
@@ -142,13 +142,13 @@ background-color: #fff;
         }
     }
     .toggle .bar1{
-        transform: rotate(-45deg) translate(-5px, 6px);
+        transform: rotate(45deg) translate(5px, 5px);
     }
     .toggle .bar2{
         opacity: 0;
     }
     .toggle .bar3{
-        transform: rotate(45deg) translate(-5px,-6px);
+        transform: rotate(-45deg) translate(7px,-6px);
     }
     .header {
         min-height: 80vh;
@@ -177,10 +177,10 @@ background-color: #fff;
         font-weight: 400;
         font-size: 3rem;
         color: #fff;
-        text-transform: uppercase;
+        
       }
       .section1{
-        padding: 3rem 1rem;
+        padding: 2rem 1rem;
       }
       .section1 h1{
         font-size: 2rem;
@@ -206,8 +206,8 @@ background-color: #fff;
       .card-wrapper{
         position: relative;
         display: grid;
-        grid-template-columns: repeat(auto-fill, 300px);
-        grid-template-rows: 250px;
+        grid-template-columns: repeat(auto-fill, 250px);
+        grid-template-rows: 300px;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -228,26 +228,25 @@ background-color: #fff;
       }
       .conetnt p{
         margin-top: 1rem;
-       
       }
       .price{
         font-size: 1.6rem;
         color: rgb(94, 107, 131);
         padding: .5rem;
-        border-top:  rgba(185, 153, 100) thin solid;
       }
       .card1 .content{
-        margin-top: 1rem;
-
+       
+        margin-bottom: 1rem;
       }
       .card2 .content{
         margin-bottom: 4rem;
         margin-top: 5rem;
       }
       .card3 .content{
-        margin-bottom: 4rem;
-        margin-top: 5rem;
+        margin-bottom: 3rem;
+        margin-top: 1rem;
       }
+
      
      
       
@@ -298,8 +297,6 @@ background-color: #fff;
         line-height: 2.6rem;
       text-align: center;
       }
-     
-     
     }
 
     @media screen and (min-width: 1020px){
@@ -367,11 +364,12 @@ background-color: #fff;
           }
           .card-wrapper{
            width: 100%;
+           margin: 1rem auto;
           }
         }
-
-        @media screen and (min-width: 1300px){
+        @media screen and (min-width: 1400px){
           .card-wrapper{
-            width: 80%;
+            width: 70%;
+            margin: 2rem auto;
            }
         }

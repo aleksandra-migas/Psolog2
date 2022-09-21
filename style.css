@@ -119,8 +119,8 @@ background-color: #fff;
         z-index: 99999;
       }
       .burger div{
-        width: 25px;
-        height: 2px;
+        width: 28px;
+        height: 3px;
         background-color: rgb(153, 215, 226);
         margin: 5px;
         transition: all 0.3s ease;
@@ -141,13 +141,13 @@ background-color: #fff;
         }
     }
     .toggle .bar1{
-        transform: rotate(-45deg) translate(-5px, 6px);
+        transform: rotate(45deg) translate(5px, 5px);
     }
     .toggle .bar2{
         opacity: 0;
     }
     .toggle .bar3{
-        transform: rotate(45deg) translate(-5px,-6px);
+        transform: rotate(-45deg) translate(7px,-6px);
     }
     .header {
         min-height: 100vh;
@@ -268,7 +268,6 @@ background-color: #fff;
             /*background-color: rgba(227, 242, 237);*/
             background-color: #fcfcfa;
           }
-         
           .text-all{
             width: 100%;
            height: 400px;
@@ -286,7 +285,6 @@ background-color: #fff;
             font-size: 1rem;
             margin-bottom: 2rem;
           }
-         
           .btn-all a{
             text-decoration: none;
             padding: .5rem 1.5rem;
@@ -327,11 +325,6 @@ background-color: #fff;
             background-size: cover;
             background-position: 50% 40%;
           }
-          .img4{
-            background-image: url(images/iwi3.jpg);
-            background-size: cover;
-            background-position: 50% 30%;
-          }
           .img5{
             background-image: url(images/win.jpg);
             background-size: cover;
@@ -347,7 +340,7 @@ background-color: #fff;
             font-size: 2.3rem;
             font-family: 'Montserrat', sans-serif;
             text-align: center;
-            margin-bottom: 2rem;
+            margin: 2rem 0;
             color: rgba(185, 153, 100);
           }
           .opinion1, .opinion2{
@@ -390,8 +383,8 @@ background-color: #fff;
             font-family: 'Montserrat', sans-serif;
             margin: 2rem 0;
           }
+         
           .section7 .contact{ 
-            margin: auto; 
             padding-bottom: 2rem;
             display: flex;
             flex-direction: column;
@@ -517,10 +510,6 @@ background-color: #fff;
             color:#fff;
            }
         }
-
-
-
-
         @media screen and (min-width: 700px){
           .header {
               background-image: linear-gradient(
@@ -560,9 +549,9 @@ background-color: #fff;
               .section3{
                 flex-direction: row-reverse;
               }
-              .section5{
+              /*.section5{
                 flex-direction: row-reverse;
-              }
+              }*/
               .text-all{
                 width: 50%;
                 height: unset;

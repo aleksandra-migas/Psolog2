@@ -120,8 +120,8 @@ background-color: #fff;
         z-index: 99999;
       }
       .burger div{
-        width: 25px;
-        height: 2px;
+        width: 28px;
+        height: 3px;
         background-color: rgb(153, 215, 226);
         margin: 5px;
         transition: all 0.3s ease;
@@ -142,13 +142,13 @@ background-color: #fff;
         }
     }
     .toggle .bar1{
-        transform: rotate(-45deg) translate(-5px, 6px);
+        transform: rotate(45deg) translate(5px, 5px);
     }
     .toggle .bar2{
         opacity: 0;
     }
     .toggle .bar3{
-        transform: rotate(45deg) translate(-5px,-6px);
+        transform: rotate(-45deg) translate(-7px,-6px);
     }
     .header {
         min-height: 70vh;
@@ -178,7 +178,6 @@ background-color: #fff;
         font-weight: 400;
         font-size: 3rem;
         color: #fff;
-        text-transform: uppercase;
       }
 
       .gallery{
