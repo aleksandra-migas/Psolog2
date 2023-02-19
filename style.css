@@ -237,7 +237,6 @@ background-color: #fff;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-            align-items: center;
             margin:2rem 0;
           }
           .icon-box{
@@ -321,7 +320,7 @@ background-color: #fff;
             background-size: cover;
           }
           .img3{
-            background-image: url(images/ring.jpg);
+            background-image: url(images/71-min.jpg);
             background-size: cover;
             background-position: 50% 40%;
           }
